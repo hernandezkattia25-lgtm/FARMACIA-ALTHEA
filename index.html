@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Farmacia ALTHEA — Cuidamos de ti, siempre</title>
+  <meta name="description" content="Farmacia ALTHEA: medicamentos, suplementos, dermatología, equipo médico y atención personalizada. Horarios: Lun-Dom 8:00 - 22:00." />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- HEADER -->
+  <header class="bg-white shadow">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#home" class="flex items-center gap-3">
+        <div class="w-12 h-12 rounded-full bg-gradient-to-br from-indigo-500 to-pink-400 flex items-center justify-center text-white font-bold">A</div>
+        <div>
+          <h1 class="font-semibold">Farmacia <span class="text-indigo-600">ALTHEA</span></h1>
+          <p class="text-xs text-gray-500">Cuidamos de ti, siempre.</p>
+        </div>
+      </a>
+
+      <nav id="mainNav" class="hidden md:flex gap-6 text-sm" aria-label="Menú principal">
+        <a href="#servicios" class="hover:text-indigo-600">Servicios</a>
+        <a href="#promociones" class="hover:text-indigo-600">Promociones</a>
+        <a href="#faq" class="hover:text-indigo-600">FAQ</a>
+        <a href="#contacto" class="hover:text-indigo-600">Contacto</a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <a href="#contacto" class="hidden md:inline-block bg-indigo-600 text-white px-4 py-2 rounded-lg text-sm">Contáctanos</a>
+        <button id="menuBtn" class="md:hidden p-2 rounded-md bg-gray-100" aria-expanded="false" aria-controls="mobileMenu">☰</button>
+      </div>
+    </div>
+
+    <!-- mobile menu -->
+    <div id="mobileMenu" class="md:hidden hidden bg-white border-t" aria-hidden="true">
+      <div class="px-6 py-4 flex flex-col gap-3">
+        <a href="#servicios">Servicios</a>
+        <a href="#promociones">Promociones</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="max-w-6xl mx-auto px-6 py-12" id="home">
+    <section class="grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 class="text-3xl font-bold mb-3">💊 Bienvenido a <span class="text-indigo-600">Farmacia ALTHEA</span></h2>
+        <p class="text-gray-700 mb-6">Somos una farmacia comprometida con tu salud y bienestar. En ALTHEA encontrarás atención profesional, productos confiables y un servicio cálido pensado en ti y tu familia.</p>
+
+        <div class="flex flex-wrap gap-3">
+          <a href="#servicios" class="px-4 py-2 bg-gray-100 rounded-md">Ver servicios</a>
+          <a href="#contacto" class="px-4 py-2 bg-indigo-600 text-white rounded-md">Contáctanos</a>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl p-6 shadow-sm">
+        <h3 class="font-semibold mb-4">Horario</h3>
+        <p class="mb-4">Lunes a Domingo: <strong>8:00 a.m. – 10:00 p.m.</strong></p>
+        <p class="text-sm text-gray-500">Atención continua, rápida y confiable.</p>
+
+        <div class="mt-6">
+          <h4 class="font-medium">Ubicación</h4>
+          <p class="text-sm text-gray-600">Farmacia ALTHEA — Tu punto de salud más cercano en la zona.</p>
+          <p class="text-xs text-gray-400 mt-2">(Agrega tu dirección exacta para mostrar mapa)</p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="my-12" />
+
+    <!-- SERVICIOS -->
+    <section id="servicios">
+      <h3 class="text-2xl font-bold mb-6">🌿 ¿Qué ofrecemos?</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <article class="bg-white p-6 rounded-xl shadow-sm">
+          <h4 class="font-semibold mb-2">Medicamentos de patente y genéricos</h4>
+          <p class="text-sm text-gray-600">Precios accesibles y marcas confiables para tratar cualquier malestar.</p>
+        </article>
+
+        <article class="bg-white p-6 rounded-xl shadow-sm">
+          <h4 class="font-semibold mb-2">Suplementos y vitaminas</h4>
+          <p class="text-sm text-gray-600">Para fortalecer tu sistema inmune, mejorar tu energía y apoyar tu salud diaria.</p>
+        </article>
+
+        <article class="bg-white p-6 rounded-xl shadow-sm">
+          <h4 class="font-semibold mb-2">Productos dermatológicos</h4>
+          <p class="text-sm text-gray-600">Cremas, geles, cuidado facial, protector solar y soluciones especializadas.</p>
+        </article>
+
+        <article class="bg-white p-6 rounded-xl shadow-sm">
+          <h4 class="font-semibold mb-2">Cuidado personal y bienestar</h4>
+          <p class="text-sm text-gray-600">Higiene, belleza, cuidado íntimo, bebés y adultos mayores.</p>
+        </article>
+
+        <article class="bg-white p-6 rounded-xl shadow-sm">
+          <h4 class="font-semibold mb-2">Equipo médico</h4>
+          <p class="text-sm text-gray-600">Baumanómetro
